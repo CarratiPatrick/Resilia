@@ -1,0 +1,41 @@
+
+  .pai{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+  
+.div1{
+   display: flex;
+   justify-content: space-around;
+   background-color: red;
+   width:500px;
+  
+}
+
+.div2{
+    width: 30%;
+    height: 30%;
+    background-color: yellow;
+}
+.div3{
+    align-self: flex-start;
+    width: 30%;
+    height: 30%;
+    background-color: green;
+}
+.div4{
+     
+    width: 30%;
+    height: 30%;
+    background-color: purple;
+}
+.botao{
+    border: solid;
+    background-color: azure;
+}

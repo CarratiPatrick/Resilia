@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{text-align: center; background-color:#f2a50c ;}
+body{background-color: black;}
+h2{color: #f2a50c;text-align: center;}
+#titulo {  color: #f2a50c;}
+.pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+.texto{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 250px;
+    border: solid;
+}
+.formulario{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 250px;
+    border: solid;
+
+}
+@media(max-width: 360px){
+    .pai{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        width: auto;
+        height: auto;
+}
+}
