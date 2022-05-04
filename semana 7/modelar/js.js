@@ -30,7 +30,7 @@ var bntCriar = document.querySelector("#criar")
 bntCriar.addEventListener("click", function(e){
     var nome = document.querySelector("#nome").value
     console.log(nome)
-    dog.nome =nome
+    dog.nome = nome
 
 })
 var nome = document.querySelector("#nome")
